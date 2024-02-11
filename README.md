@@ -6,6 +6,7 @@ This project will use the data structure: recursion.
 
 - General info
 - Technologies
+- Future
 
 ## General info 🧠
 
@@ -22,3 +23,7 @@ This web application will be builted with:
 - HTML
 - CSS
 - Javascript
+
+## Future 🔮
+
+Might add Leetcode questions of topic recursion into the webpage.
