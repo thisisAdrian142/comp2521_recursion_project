@@ -44,3 +44,17 @@ header {
     background-color: #359381;
     color: #fff;
 }
+
+.parallax {
+    position: relative;
+    display: flex;
+    justify-content: center;  /*seems like i have to use flex first in order to use this justify content*/
+    align-items: center;
+    height: 100vh;
+}
+
+#text {
+    position: absolute;
+    font-size: 5em;
+    color: #333;
+}
