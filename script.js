@@ -8,10 +8,9 @@ function factorialize(num) {
     }
 }
 
-var line2 = prompt("Please type the number you would like to know its factorial in here: ");
 
-println("Just to confirm what you typed: " + line2 + " is the num you typed.");
-
+var line2 = prompt("Please type the number you would like to know its factorial in here: ");    
 const outputArea = document.getElementById("factorial-result");
 const calculatedResult = factorialize(line2);
-outputArea.textContent = calculatedResult;
+outputArea.textContent = "The output result of this factorial is: " + calculatedResult;
+
