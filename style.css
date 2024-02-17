@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -133,7 +133,82 @@ header {
     border-radius: 10px;
 }
 
+/*? About me page -> chatgpt fixed the code */
+.about-page {
+    /* ? margin block -> avoid navbar section and content section overlapping */
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    /* ?  */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    /* margin: 10rem;
+    padding: 2rem; */
+    max-width: 1200px;
+    padding: 1rem;
+    gap: 2rem;
+    border: 0.5rem solid rgb(176, 255, 189);
+    border-radius: 25px;
+}
 
+.main-about-page {
+    display: flex;
+    width: 100%;
+}
 
+img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
 
+.about-text-page {
+    width: 50%;
+    padding: 2rem;
+    color: white;
+}
+
+.about-text-page h1 {
+    font-size: 100px;
+}
+
+.about-text-page h4 {
+    font-size: 50px;
+}
+
+.about-text-page p {
+    font-size: 25px;
+}
+
+@media (min-width: 768px) {
+    .about-page {
+        flex-direction: column;
+    }
+    .about-text-page {
+        width: 100%;
+    }
+}
+
+/* .main-about-page{
+    display: flex;
+} */
+
+/* .main-about-page img{
+    width: 100%;
+    height: auto;
+}
+
+.about-text-page {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about-text-page h1 h4 {
+    color: white;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+} */
 
