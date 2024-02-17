@@ -8,8 +8,8 @@
 }
 
 body {
-    background-color: rgb(221, 213, 213);
     min-height: 100vh;
+    background: linear-gradient(180.5deg, rgb(0, 128, 128) 8.5%, rgb(174, 206, 100) 118.2%);
 }
 
 header {
@@ -19,19 +19,121 @@ header {
     width: 100%;
     padding: 30px 100px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
     z-index: 100;
 }
 
+
 .logo {
-    font-size: 2em;
-    color: #ff7f50;
+    font-size: 1.5em;
     margin-right: 2rem;
+    padding: 10px;
+    color: rgb(255, 175, 106);
+    border: 3px;
+    border-radius: 25px;
 }
 
 .navigation a{
-   color: #ff7f50;
-   font-size: 1em;
-   padding: 5px 15px;
+   text-decoration: none;
+   font-size: 1.3em;
+   padding: 10px 25px;
+   color: rgb(255, 175, 106);
+   border: 3px;
+   border-radius: 25px;
 }
+
+.logo:hover, .logo .active {
+    background: radial-gradient(circle at 0.8% 1.8%, rgb(255, 104, 107) 0%, rgb(255, 187, 103) 90.1%);
+    color: white;
+}
+
+.navigation a:hover, .navigation a.active {
+    background: radial-gradient(circle at 0.8% 1.8%, rgb(255, 104, 107) 0%, rgb(255, 187, 103) 90.1%);
+    color: white;
+}
+
+/*! PARALLAX EFFECT */
+.parallax {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden; /** help to stop the infinite expansion when scrollign down*/
+    background: linear-gradient(180.5deg, rgb(0, 128, 128) 8.5%, rgb(174, 206, 100) 118.2%);
+}
+
+.parallax img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+#background-cloud-lake {
+    top: 0;
+}
+
+#sun-lake {
+    width: 15vw;
+    left: 15vw;
+}
+
+#mountains-lake {
+    top:40vw;
+    height: auto;
+}
+
+#trees-lake {
+    top: 32vw;
+}
+
+/*! JS TEXT STYLE  */
+.success-result {
+    margin: 5rem;
+    color: green;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #4CAF50;
+    border-radius: 25px;
+    padding: 30px;
+}
+
+.error-result {
+    margin: 5rem;
+    color: green;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #4CAF50;
+    border-radius: 25px;
+    padding: 30px;
+}
+
+/*! TESTING TEXT SECTION  */
+
+.section-text-testing{
+    margin: 5rem;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 25px;
+}
+
+.testing-box-h2 {
+    padding-bottom: 2rem;
+    text-align: center;
+    color: blue;
+    border: 3px solid purple;
+    border-radius: 25px;
+}
+
+.lorem-ipsum-testing {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    color: blue;
+    border: 3px solid purple;
+    border-radius: 10px;
+}
+
+
+
+
+
