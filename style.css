@@ -133,6 +133,7 @@ header {
     border-radius: 10px;
 }
 
+/*! ABOUT ME PAGE */
 /*? About me page -> chatgpt fixed the code */
 .about-page {
     /* ? margin block -> avoid navbar section and content section overlapping */
@@ -212,3 +213,18 @@ img {
     margin-bottom: 20px;
 } */
 
+/*! CONTACT US PAGE */
+.contact-page {
+    margin-top: auto;
+    margin: 4rem;
+    padding: 2rem;
+}
+
+.main-contact-page {
+    margin: 1.5rem;
+}
+
+.contact-text-page {
+    color: white;
+    text-align: center;
+}
